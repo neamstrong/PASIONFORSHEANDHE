@@ -14,6 +14,23 @@ https://templatemo.com/tm-556-catalog-z
     height: 100%;
     z-index: 1001;
 }
+
+#QRE{
+width: 80px;
+height: 90px;
+border: 1px solid blue;
+
+}
+#QRR{
+    width: 14em;
+    height: 14em;
+}
+.descr{
+    font-size: 0.5em;
+}
+.navbar-brand{
+    margin: 15px;
+}
 #loader {
     display: block;
     position: relative;
