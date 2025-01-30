@@ -1,3 +1,4 @@
+
 /*
     
 TemplateMo 556 Catalog-Z
@@ -18,8 +19,16 @@ https://templatemo.com/tm-556-catalog-z
 #QRE{
 width: 80px;
 height: 90px;
-border: 1px solid blue;
 
+}
+#QREh{
+    width: 9em;
+    height: 9em;
+}
+img.imghmc{
+    padding: 9px;
+    width: 340px;
+    height: 340px;
 }
 #QRR{
     width: 14em;
