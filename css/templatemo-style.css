@@ -88,8 +88,24 @@ img.imghmc{
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     }
      span#credito{
-        color: black;
+        font-weight: bold;
+        padding: 7.5px;
+        color: rgb(13, 0, 255);
         text-decoration: underline;
+        font-size: 1.4em;
+    }
+
+    button#exit{
+        width: 230px;
+
+    }
+    a#exita{
+        font-size: 1.9em;
+
+    }
+    a#exita:hover{
+        text-decoration: underline;
+        color: rgb(0, 255, 136);
     }
 
     @-webkit-keyframes spin {
@@ -179,7 +195,8 @@ a {
     transition: all 0.3s ease; 
 }
 a:hover { color:#009999; }
-.container-fluid { max-width: 1770px; }
+.container-fluid { max-width: 1770px; 
+position: relative;}
 .tm-container-small { max-width: 1050px; }
 .btn { border-radius: 0; }
 .btn-primary {
